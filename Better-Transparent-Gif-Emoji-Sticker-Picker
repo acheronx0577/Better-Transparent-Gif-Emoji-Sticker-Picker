@@ -1,0 +1,76 @@
+/**
+ * @name Better Transparent Gif, Emoji, Sticker Picker
+ * @author AcheronX.
+ * @description More Compact and clean look
+ * @source https://github.com/acheronx0577/Better-Compact-Command-Menu-With-Smooth-Transition/edit/main/Better%20Compact%20Command%20Menu%20With%20Smooth%20Transition.css
+ * @version 0.0.1
+ * @website https://github.com/acheronx0577
+ */
+
+/* 🌟 Main emoji picker container */
+[class^="contentWrapper_"] {
+  border-radius: 12px !important;
+  overflow: hidden !important;
+  left: -28px;
+  top: 17px;
+  background-color: transparent !important;
+}
+
+/* 🎛️ Collapsible server headers */
+div[class^="header__"][class*="interactive__"] {
+  background-color: rgba(7, 7, 7, 0.15) !important;
+  border-radius: 10px !important;
+  margin-right: 13px;
+  padding: 2px !important;
+  transition: background-color 0.2s ease-in-out !important;
+}
+
+/* 🎨 Transparent header wrappers */
+div[class^="wrapper__"][class*="header_"] {
+  background: transparent !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
+}
+
+/* ✨ Header hover effect */
+div[class^="header__"][class*="interactive__"]:hover {
+  background: rgba(255, 255, 255, 0.05) !important;
+}
+
+/* 🗂️ Category/pack headers */
+div[class^="wrapper__"][class*="packHeader_"] {
+  background: transparent !important;
+  border-radius: 8px !important;
+}
+
+
+/* ↔️ Sidebar resize handle */
+.resizeHandle__08434 {
+  left: -30px !important;
+}
+
+/* 🧩 Child container rounding */
+.childContainer__91a9d {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* 🎯 Clip child container on hover */
+.childContainer__91a9d:hover {
+  clip-path: inset(0 0 0 7.7px round 10px);
+  transition: clip-path 0.2s ease;
+}
+
+/* 📋 Menu container styling */
+div[class*="menu_"][role="menu"] {
+  border: 1px solid var(--background-modifier-accent);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* 🔽 Search bar header clipping */
+.header__8ef02 {
+  clip-path: inset(0 0 4px 0px);
+}
+
